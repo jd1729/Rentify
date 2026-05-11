@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rentify</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Dynamic CSS -->
+    <link id="page-style" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+
+    <!-- NAVBAR (FIXED) -->
+    <nav>
+        <div class="logo">Rentify</div>
+
+        <ul class="nav-links">
+            <div id="pill"></div>
+            <li class="active"onclick="loadPage('home',this)">Home</li>
+            <li onclick="loadPage('browse',this)">Browse</li>
+            <li onclick="loadPage('categories',this)">Categories</li>
+
+        </ul>
+
+        <div class="nav-right">
+
+            <i class="fa-regular fa-message"></i>
+            <i class="fa-regular fa-bell"></i>
+            <button class = "login-btn">Login</button>
+            <button class = "signup-btn">Sign Up</button>
+            <div class="profile"><i data-lucide="user"></i></div>
+        </div>
+    </nav>
+
+    <!-- CONTENT AREA -->
+    <div id="content">
+
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
